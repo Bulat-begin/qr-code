@@ -9,7 +9,7 @@ export const GenerateHistory = () => {
             {data.map((text) => (
                 <p key={text}>
                     {text}
-                    <QRCodeSVG value={text} size={100} />
+                    <QRCodeSVG value={text} size={80} />
                 </p>
             ))}
         </div>
