@@ -21,7 +21,7 @@ export const QrCodeScanner = () => {
       <Scanner
         onScan={scanHandler}
         components={{ audio: false, finder: false }}
-        styles={{ container: { width: 400 } }}
+        styles={{ container: { width: 200 } }}
       />
       <p className={s.result}>{scanned}</p>
     </div>
